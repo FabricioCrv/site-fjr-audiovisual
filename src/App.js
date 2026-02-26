@@ -2,6 +2,7 @@ import './App.css';
 import styled from 'styled-components';
 import Header from './components/Header';
 import DescricaoSobre from './components/DescricaoSobre';
+import EstruturaFjr from './components/estruturaFjr';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -18,6 +19,7 @@ function App() {
     <AppContainer>
       <Header/>
       <DescricaoSobre/>
+      <EstruturaFjr/>
     </AppContainer>
   );
 }
