@@ -28,8 +28,8 @@ const ContentWrapper = styled.div`
 `;
 
 const CarrosselWrapper = styled.div`
-  flex: 0 0 45%; /* Ocupa 45% do espaço, não cresce nem encolhe */
-  max-width: 500px; /* Tamanho máximo para a imagem não ficar muito grande */
+  flex: 0 0 45%; 
+  max-width: 500px; 
 
   @media (max-width: 968px) {
     flex: 0 0 auto;
@@ -41,7 +41,7 @@ const CarrosselWrapper = styled.div`
 const CarrosselContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 350px; /* Altura reduzida */
+  height: 350px; 
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
