@@ -96,14 +96,14 @@ const NomeEspaco = styled.p`
 
 function EstruturaFjr(){
     const estrutura = [
-        {imagem: estudioFjr, nome: "Sala de gravação"},
-        {imagem: gravacaoFjr, nome: "Gerenciamento de gravação"},
-        {imagem: podfalarFjr, nome: "Espaço podcast" },
-        {imagem: salaFjr, nome: "Sala 1" },
-        {imagem: salaDoisFjr, nome: "Sala 2" },
-        {imagem: salaTresFjr, nome: "Sala 3" },
-        {imagem: telaVerdeFjr, nome: "Estúdio com Tela Verde" },
-        {imagem: testeGravacao, nome: ""}
+        {imagem: estudioFjr},
+        {imagem: gravacaoFjr},
+        {imagem: podfalarFjr},
+        {imagem: salaFjr},
+        {imagem: salaDoisFjr},
+        {imagem: salaTresFjr},
+        {imagem: telaVerdeFjr},
+        {imagem: testeGravacao}
     ];
 
     return(

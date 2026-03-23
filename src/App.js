@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Header from './components/Header';
 import DescricaoSobre from './components/DescricaoSobre';
 import EstruturaFjr from './components/estruturaFjr';
+import TimelineSelection from './components/TimelinePassoAPasso';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -20,6 +21,7 @@ function App() {
       <Header/>
       <DescricaoSobre/>
       <EstruturaFjr/>
+      <TimelineSelection/>
     </AppContainer>
   );
 }
