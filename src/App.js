@@ -5,6 +5,7 @@ import DescricaoSobre from './components/DescricaoSobre';
 import EstruturaFjr from './components/estruturaFjr';
 import TimelineSelection from './components/TimelinePassoAPasso';
 import ExplicacaoStudio from './components/ExplicacaoStudio';
+import Footer from './components/Footer';
 
 const AppContainer = styled.div`
   width: 100vw;
@@ -24,6 +25,7 @@ function App() {
       <EstruturaFjr/>
       <ExplicacaoStudio/>
       <TimelineSelection/>
+      <Footer/>
     </AppContainer>
   );
 }
