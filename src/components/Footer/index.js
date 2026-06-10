@@ -8,6 +8,10 @@ const FooterContainer = styled.footer`
   padding: 40px 60px 20px;
 `;
 
+const Link = styled.a`
+  color: #fff;
+`;
+
 const FooterContent = styled.div`
   display: grid;
   grid-template-columns: 1.4fr 1fr 1.5fr 1fr;
@@ -68,7 +72,7 @@ function Footer() {
         <Column>
             <Title>Contatos</Title>
             <Text><FaPhoneAlt/> 85 99184-5926</Text>
-            <Text><FaWhatsapp/> 85 99184-5926</Text>
+            <Text> <Link href="https://api.whatsapp.com/send/?phone=5585991845926&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer"><FaWhatsapp/></Link>85 99184-5926</Text>
             <Text><FaEnvelope/> contato@fjraudiovisual.com.br</Text>
             <Text>
                 <FaMapMarkerAlt />

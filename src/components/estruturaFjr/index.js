@@ -7,7 +7,7 @@ import salaFjr from "../../images/estruturaFjr/salaFjr.png"
 import salaDoisFjr from "../../images/estruturaFjr/salaDoisFjr.png"
 import salaTresFjr from "../../images/estruturaFjr/salaTresFjr.png"
 import telaVerdeFjr from "../../images/estruturaFjr/telaVerdeFjr.png"
-import testeGravacao from "../../images/estruturaFjr/testandoGravacao.png"
+import recepcaoFjr from "../../images/estruturaFjr/recepcaoFjr.png"
 
 const SectionContainer = styled.section`
     max-width: 1400px;
@@ -103,7 +103,7 @@ function EstruturaFjr(){
         {imagem: salaDoisFjr},
         {imagem: salaTresFjr},
         {imagem: telaVerdeFjr},
-        {imagem: testeGravacao}
+        {imagem: recepcaoFjr}
     ];
 
     return(
